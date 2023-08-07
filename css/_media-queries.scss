@@ -1,0 +1,338 @@
+@media (min-width: 400px) { 
+    .product-box{
+        margin: 1.5em;
+        gap: 1em !important;
+        flex-direction: column;
+    }
+    footer{
+        min-height: 65vh;
+    }
+
+ }
+
+ @media (min-width: 575px) {
+    .four-s-img{
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fourth-s h3{
+            margin-left: 2em;
+        }
+    .img-1{
+        object-position: 0px -70px;
+    }
+    .img-2{
+        object-position: 0px -170px;
+    }
+    .logo-footer{
+        width: 35%;
+        height: auto;
+    }
+ }
+
+ @media (min-width: 767px) { 
+    .hero-img{
+        background-size: auto;
+        background-position-x: 250px !important;
+    }
+    .hero {  
+        margin-bottom: 5em !important;
+        h1{
+            color: #292929 !important;
+        }
+    
+        p{
+            width: 50%;
+            margin-top: -1em;
+            color: #292929 !important;
+            font-family: Kulim Park;
+            font-weight: 200;
+        }
+    }
+    .h1 svg path{
+        stroke: #292929;
+    }
+    .h1{
+        width: 60%;
+    }
+    .fourth-s{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 5px;
+    }
+    .four-s-img{
+        width: 100%;
+        height: 180px;
+    }
+    .product-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .product-img{
+        width: 180px;
+        height: 210px;
+    }
+    .product-text-container{
+        width: 180px;
+    }
+    .first-block{
+        margin-left: 2em;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 10px;
+        width: 90%;
+        height: auto;
+    }
+    .second-block{
+        grid-column: 2 / span 1;
+        width: 90%;
+        height: 420px;
+    }
+    .first-block .shirts-section {
+        grid-row: 1 / span 1;
+    }
+    .first-block .dresses-section{
+        grid-row: 2 / span 1;
+    }
+    .nightwear-section{
+        width: 100%;
+        height: 100%;
+    }
+    .img-3{
+        height: 400px;
+    }
+
+    .shirts-section,
+    .dresses-section,
+    .nightwear-section{
+        h3{
+            top: 50%;
+            left: 10%;
+
+        }
+    }
+
+}
+
+@media only screen and (min-width:940px) {
+
+    .h1 svg{
+        width: 40% !important;
+    }
+
+    #collection-products{
+        margin-top: -10em !important;
+    }
+
+    .hero-img{
+        width: 60% !important;
+        background-size: contain;
+        background-position-x: 50px !important;
+    }
+
+    header{
+        height: 12vh !important;
+    }
+
+    .menu {
+        display: none !important;
+    }
+
+    nav{
+        height: unset !important;
+        margin-bottom: -1em !important;
+        display: flex !important;
+        margin-left: auto !important;
+        justify-content: center !important;
+        transform: translateX(0) !important;
+        position: unset !important;
+        background: none !important;
+    }
+    .close{
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        margin: 0 !important;
+
+        li:after {
+            content: "";
+            position: absolute;
+            width: 0%;
+            height: 1px;
+            display: block;
+            transition: all 0.3s ease;
+            bottom: 40%;
+          }
+          li:hover::after {
+            margin-left: 2.2em !important;
+            width: 5%;
+            height: 1px;
+            background-color: #636363;
+          }
+    }
+    nav ul a{
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 0 !important;
+        margin-left: 1em !important;
+        padding-left: 1.5em !important;
+        background: none !important;
+        color: #444444 !important;
+        font-size: .9rem;
+        width: 60%;
+        font-weight: 600;
+        transition: 400ms ease-in-out;
+    }
+    nav ul a:hover{
+        transition: 400ms ease-in-out;
+    }
+    .right-nav{
+        margin-top: 1em !important;
+        display: flex !important;
+        margin-right: 3em !important;
+    }
+    .cart-wishlist{
+        display: flex;
+        a{
+            margin-left: 2em !important;
+            border: 1px solid #cccccc;
+            border-radius: 50%;
+            margin: 0px 5px;
+            transition: all ease 0.2s;
+        }
+        i{
+            transition: all ease 0.2s;
+        }
+        i:hover{
+            border-color: #0a0a0a;
+            transform: scale(0.92);
+            transition: all ease 0.2s;
+        }
+    }
+    .cart-wishlist a:hover{
+        transition: all ease 0.2s;
+    }
+    .header-text{
+        color: #424242;
+        display: none !important;
+        position: absolute;
+        margin-top: 1.7em !important;
+        gap: 2em;
+        margin-left: auto;
+        margin-left: 1.6em;
+        font-size: 0.8rem;
+    }
+
+    footer{
+        height: 50vh;
+    }
+
+}
+
+@media (min-width: 991px) {
+    .hero{
+        margin-bottom: 9em !important;
+    }
+    .wrap{
+        width: 1000px;
+    }
+    
+    .product-box{
+        margin: 3em;
+        gap: 1em !important;
+    }
+    .logo-footer{
+        width: 65%;
+        margin-top: 1.5em;
+    }
+    .logo-display{
+        display: flex;
+        position: absolute;
+    }
+    footer{
+        display: flex;
+        min-height: 30vh;
+    }
+    .footer-2-columns{
+        left: 33%;
+        position: absolute;
+    }
+    .footer-column{
+        margin: unset !important;
+        margin-left: 2em !important;
+    }
+    .newsletter-block{
+        margin-top: 3em;
+        position: absolute;
+        left: 70%;
+    }
+    .social{
+        position: absolute;
+        left: 45%;
+        margin-top: 15em;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .wrap{
+        width: 1200px;
+    }
+    .hero-img{
+        background-size: contain;
+        width: 60% !important;
+        background-position-x: 100px !important;
+    }
+    .hero { 
+        margin-left: 5em !important; 
+        h1{
+            margin-top: 4.5em !important;
+            font-size: 3rem !important;
+        }
+    
+        p{
+            width: 40%;
+            font-size: 1.2rem;
+        }
+    }
+    .h1 svg path{
+        stroke: #292929;
+    }
+    .h1{
+        width: 40%;
+        margin-bottom: 1.5em;
+    }
+    .fourth-s{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        width: 1200px;
+    }
+    .product-box{
+        margin-left: 4em;
+        margin-top: 1em !important;
+    }
+    .wrap-bg{
+        width: 1200px;
+    }
+    .logo-footer{
+        padding-left: 5em;
+        width: 50%;
+    }
+    .footer{
+        width: 1000px !important;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-2-columns{
+        left: 37%;
+    }
+    
+}

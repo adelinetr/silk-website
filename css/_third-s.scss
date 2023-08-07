@@ -1,0 +1,40 @@
+.third-s{
+    margin-top: 18em;
+    min-height: 100vh;
+
+    h2{
+        margin: 1em;
+    }
+
+    button{
+        display: block;
+        text-decoration: none;
+        background: none;
+        border: 1px solid #000;
+        font-size: 1.5rem;
+        padding: 0.5em 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.three-columns{
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    img{
+        padding: 0.5em;
+        width: 95%;
+        height: 35vh;
+        object-fit: cover;
+        border: 1px solid #d4d4d4;
+    }
+}
+
+.three-c{
+    display: none;
+}
