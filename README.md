@@ -1,5 +1,10 @@
 # SILK Clothes Shop Website (March)
 Unfinished project but the concept and design was ready for implementation. Planning to finish it this autumn.
+![silk-2](https://github.com/adelinetr/silk-website/assets/119743518/f28dd7f9-7222-467d-97cd-0386e316a5ac)
+![silk-3](https://github.com/adelinetr/silk-website/assets/119743518/dddf5cfb-d72e-4606-90c7-a17940cc096a)
+
+
+
 
 ## Design of Website:
 - Minimalism: clean space and layout of the components
